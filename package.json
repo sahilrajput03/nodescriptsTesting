@@ -1,0 +1,17 @@
+{
+  "name": "nodescriptstesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo HELLO",
+    "prestart": "echo WELCOMe",
+    "poststart": "echo WORLD",
+    "install": "echo 'My on INSTALl script.'",
+    "preinstall": "echo 'My on PRE-INSTALL script.'",
+    "postinstall": "echo 'My on POST-INSTALL script.'"
+  },
+  "dependencies": {
+    "usewhat": "^1.0.23"
+  }
+}
